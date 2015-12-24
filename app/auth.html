@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="ie8" lang="ru-Ru">
+<html lang="ru-Ru">
+<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио Руслана Гайфутдинова</title>
+    <meta name="description" content="Портфолио Гайфутдинова Руслана">
+    <meta name="keywords" content="портфолио, frontend">
+    <meta name="author" content="Гайфутдинов Руслан">
+    <link rel="icon" type="image/png" href="./i/favicon.png">
+    <link rel="stylesheet" href="bower/normalize-css/normalize.css">
+    <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">    
+    <link rel="stylesheet" href="fonts/fonts.css">     
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/auth.css">          
+    <script src="bower/modernizer/modernizr.js"></script>
+</head>
+<body>
+    <!-- [if lt IE 8]>
+    <p class="browsehappy">Вы используете <strong>устаревший</strong> браузер. Пожалуйста, <a href="http://browsehappy.com">обновите</a> его.</p>
+    <![endif]-->
+    <div class="authform__wrapper">
+        <div class="authform__top-title">Авторизуйтесь</div>
+        <div class="authform__container clearfix">
+            <form id="authform" action="#" method="post">
+                <label class="authform__label">
+                    <i class="authform__before-login"></i><input class="authform__input--login" name="authEmail" type="text" qtip-position="left" qtip-content="Введите Email" placeholder="Введите Email" />
+                </label>
+                <label class="authform__label">
+                    <i class="authform__before-password"></i><input class="authform__input--password" name="authPassword" type="password" qtip-position="left" qtip-content="Введите пароль" placeholder="Введите пароль" />
+                </label> 
+                <div class="authform__label">
+                    <input id="auth-checkbox" class="authform__input--checkbox" name="authRememberMe" type="checkbox" />
+                    <label for="auth-checkbox" class="authform__checkbox-text">Запомнить меня?</label>              
+                </div> 
+                <div class="authform__submit-container">
+                    <input class="authform__submit-button" type="submit" value="Войти" />
+                </div>       
+            </form>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="bower/jquery/dist/jquery.js"><\/script>')</script>
+    <script src="bower/bPopup/jquery.bpopup.min.js"></script>  
+    <script src="bower/qtip2/jquery.qtip.js"></script> 
+    <script src="bower/jquery-placeholder/jquery.placeholder.js"></script>  
+    <script src="js/main.js"></script>
+</body>
+</html>

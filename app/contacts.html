@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html class="ie8" lang="ru-Ru">
+<html lang="ru-Ru">
+<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио Руслана Гайфутдинова</title>
+    <meta name="description" content="Портфолио Гайфутдинова Руслана">
+    <meta name="keywords" content="портфолио, frontend">
+    <meta name="author" content="Гайфутдинов Руслан">
+    <link rel="icon" type="image/png" href="./i/favicon.png">
+    <link rel="stylesheet" href="bower/normalize-css/normalize.css">
+    <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">    
+    <link rel="stylesheet" href="fonts/fonts.css">     
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contacts.css">
+     <script src="bower/modernizer/modernizr.js"></script>
+</head>
+<body>
+    <!-- [if lt IE 8]>
+    <p class="browsehappy">Вы используете <strong>устаревший</strong> браузер. Пожалуйста, <a href="http://browsehappy.com">обновите</a> его.</p>
+    <![endif]-->
+    <header class="main-header">
+        <div class="container-large relative clearfix">
+            <a class="loftschool-logo" href="index.html" title="На главную страницу">
+                <img class="loftschool-logo__img" src="i/logo-loftschool.png" alt="LoftSchool" />
+            </a>
+            <ul class="social-links">
+                <li class="social-links__item">
+                    <a class="social-links__icon fb" href="#" title="Facebook">Facebook</a>
+                </li>
+                <li class="social-links__item">
+                    <a class="social-links__icon vk" href="#" title="Вконтакте">Вконтакте</a>
+                </li>
+                <li class="social-links__item">
+                    <a class="social-links__icon tw" href="#" title="Twitter">Twitter</a>
+                </li>
+                <li class="social-links__item">
+                    <a class="social-links__icon gh" href="#" title="GitHub">GitHub</a>
+                </li>
+            </ul>
+
+        </div>
+    </header>
+    <div class="main-content">  
+        <div class="container clearfix">
+            <aside class="sidebar">
+                <nav>
+                    <ul class="main-menu">
+                        <li class="main-menu__item">
+                            <a href="index.html" class="main-menu__link" title="Обо мне">Обо мне</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="portfolio.html" class="main-menu__link" title="Мои работы">Мои работы</a>
+                        </li>
+                        <li class="main-menu__item active">
+                            <a href="contacts.html" class="main-menu__link" title="Обратная связь">Обратная связь</a>
+                        </li>
+                    </ul>
+                </nav>
+                <address class="author-contacts">
+                    <h2 class="author-contacts__header">Контакты</h2>
+                    <ul class="contacts-list">
+                        <li class="contacts-list__item email">
+                            <a href="mailto:iennefer@list.ru" class="contacts-list__link">iennefer@list.ru</a>
+                        </li>
+                        <li class="contacts-list__item phone">
+                            <a href="tel:+79673659798" class="contacts-list__link">+79673659798</a>
+                        </li>
+                        <li class="contacts-list__item skype">
+                            <a href="skype:ruslan.gaifutdinov?chat" class="contacts-list__link">ruslan.gaifutdinov</a>
+                        </li>
+                    </ul>
+                </address>
+            </aside>
+            <div class="page-content">
+                <section class="info-card clearfix">
+                    <h1 class="info-card__header">У Вас интересный проект? Напишите мне!</h1>
+                        <div class="contactform__wrapper">
+                            <form id="contactform" action="#" method="post" >                        
+                                <label class="contactform__label col-50-pr">
+                                    <div class="contactform__title">Имя</div>
+                                    <input class="contactform__input--text" type="text" name="contactsName" qtip-position="left" qtip-content="Укажите Имя" placeholder="Как к Вам обращаться">
+                                </label>
+                                <label class="contactform__label col-50-pr">
+                                    <div class="contactform__title">Email</div>
+                                    <input class="contactform__input--text" type="text" name="contactsEmail" qtip-position="right" qtip-content="Укажите Email" placeholder="Куда мне писать">
+                                </label> 
+                                <label class="contactform__label col-100-pr">
+                                    <div class="contactform__title">Сообщение</div>
+                                    <textarea class="contactform__textarea" type="text" name="contactsText" qtip-position="left" qtip-content="Введите сообщение" placeholder="Кратко в чем суть"></textarea>
+                                </label>   
+                                <label class="contactform__label col-100-pr">
+                                    <div class="contactform__title">Введите код, указанный на картинке</div>
+                                    <div class="contactform__captcha-wrapper">
+                                        <img class="contactform__captcha-img" src="i/captcha.png" />
+                                    </div>
+                                    <div class="contactform-input-code-wrapper">
+                                        <input class="contactform__input--code" type="text" name="contactsCode" qtip-position="right" qtip-content="Введите код" placeholder="Код с картинки">   
+                                    </div>
+                                </label>   
+                                <div class="contactform__buttons-wrapper clearfix">
+                                    <label class="contactform__label col-50-pr align-center">
+                                        <input class="contactform__button contactform__button--submit" type="submit" value="Отправить">
+                                    </label>
+                                    <label class="contactform__label col-50-pr align-center">    
+                                        <input class="contactform__button contactform__button--reset" type="reset" value="Очистить">
+                                    </label>
+                                </div>     
+                            </form>
+                        </div>
+                </section>
+            </div>
+
+        </div>
+    </div>
+    <footer class="main-footer">
+        <div class="container">
+            <a class="main-footer__login-link" href="auth.html">вход</a>
+            <p class="main-footer__copyright">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его!</p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="bower/jquery/dist/jquery.js"><\/script>')</script>
+    <script src="bower/bPopup/jquery.bpopup.min.js"></script>  
+    <script src="bower/qtip2/jquery.qtip.js"></script> 
+    <script src="bower/jquery-placeholder/jquery.placeholder.js"></script>     
+    <script src="js/main.js"></script>
+</body>
+</html>
